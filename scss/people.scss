@@ -1,0 +1,45 @@
+#people{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding:40px;
+  .container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+  }
+  .content {
+    padding:30px;
+    gap: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    img{
+      border-radius:100%;
+      position: relative;
+      height: 100px;
+      width: 100px;
+      margin-left:70px;
+    }
+  }
+  }
+    @media (max-width: 768px){
+      #people{
+        margin-top: 50px;
+        height: 800px;
+        padding:30px;
+        flex-wrap: wrap;
+      .container{
+        gap: 1px;
+      img{
+        margin-left:50px;
+      }
+      }
+      }
+      }
+    
+  
